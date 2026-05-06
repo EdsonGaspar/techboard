@@ -3,6 +3,7 @@ import imgLogo from "../assets/logo.png";
 import imgBanner from "../assets/banner.png";
 import { FormularioDoEvento } from "@/components/form-event/form-evento";
 import { ListaTemas } from "@/components/categoria/temas-list";
+import { CardEvento } from "@/components/card-evento";
 export default function Home() {
   return (
     <main className="bg-[#06151A] border">
@@ -25,6 +26,9 @@ export default function Home() {
       </section>
       <section>
         <ListaTemas />
+      </section>
+      <section>
+        <CardEvento />
       </section>
     </main>
   );
